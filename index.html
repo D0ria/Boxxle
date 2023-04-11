@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Boxxle.io</title>
+    <audio src="sound/Genshin Impact - Klee ! Theme Song.mp3" autoplay loop="true" id="audio"></audio>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p id="current-level"></p>
+        <button class="button" id="reset-button">
+          <div class="circle"></div>
+          <span>Restart</span>
+        </button>
+      </header>
+      <div class="sous-container">
+        <div class="personnages" style="margin-top: 20px">
+          <button id="ganyu" class="character-button">
+            <img src="assets/ganyu.gif" alt="" />
+          </button>
+          <button id="hutao" class="character-button">
+            <img src="assets/hutao.gif" alt="" />
+          </button>
+          <button id="kfc" class="character-button">
+            <img src="assets/kfc.gif" alt="" />
+          </button>
+          <button id="klee" class="character-button">
+            <img src="assets/klee.gif" alt="" />
+          </button>
+          <button id="tarta" class="character-button">
+            <img src="assets/tarta.gif" alt="" />
+          </button>
+          <button id="yelan" class="character-button">
+            <img src="assets/yelan.gif" alt="" />
+          </button>
+          <button id="xiangling" class="character-button">
+            <img src="assets/xiangling.gif" alt="" />
+          </button>
+          <button id="kuki" class="character-button">
+            <img src="assets/kuki.gif" alt="" />
+          </button>
+          <button id="nahida" class="character-button">
+            <img src="assets/nahida.gif" alt="" />
+          </button>
+        </div>
+        <div id="grid"></div>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
